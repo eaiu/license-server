@@ -11,5 +11,8 @@
       "src": "/api/verify",
       "dest": "api/verify.py"
     }
-  ]
+  ],
+  "env": {
+    "FLASK_ENV": "production"
+  }
 }
