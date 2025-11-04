@@ -4,12 +4,20 @@
     {
       "src": "api/verify.py",
       "use": "@vercel/python"
+    },
+    {
+      "src": "admin/index.html",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/api/verify",
       "dest": "api/verify.py"
+    },
+    {
+      "src": "/admin",
+      "dest": "admin/index.html"
     }
   ]
 }
